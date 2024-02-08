@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    background-color: rgb(24, 24, 24);
+}
+.head{
+    background-color: rgb(24, 24, 24);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.planetIcon{
+ filter: invert(100%);
+ width: 30px;
+ height: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logorec{
+    background-color: rgb(255, 255, 255);
+    width: 174px;
+    height: 33px;
+    border-radius: 20px 20px 20px 20px;
+}
+.inputSearch{
+    border-radius: 20px 20px 20px 20px;
+    width: 230px;
+    height: 25px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(77, 77, 77);
+    border-color: rgb(77, 77, 77);
+}
+.menuParam{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 30%;
+}
+.param{
+    cursor: pointer;
+}
+.signBut{
+    font-family: sans-serif;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(24, 24, 24);
+    border-color: rgb(105, 0, 0);
+    color: rgb(105, 0, 0,);
+    cursor: pointer;
+}
+.leng{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.lengB{
+    cursor: pointer;
+}
+.selectAvto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 160%;
+}
+.selectors{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.selectors1{
+    font-size: 130%;
+    background-color:rgb(24, 24, 24) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(77, 77, 77);
+    color: rgb(77, 77, 77);;
+}
+.searchCatalog{
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(105, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+}
