@@ -64,7 +64,13 @@ body, html {
     flex-direction: row;
 }
 .lengB{
-    cursor: pointer;
+    font-size: 130%;
+    background-color:rgb(24, 24, 24) ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(77, 77, 77);
+    color: rgb(77, 77, 77);;
 }
 .selectAvto{
     color: white;
