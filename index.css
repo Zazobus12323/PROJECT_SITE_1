@@ -38,9 +38,9 @@ body, html {
     width: 230px;
     height: 15px;
     background-color: rgb(34, 34, 34);
-    color: rgb(77, 77, 77);
-    border-color: rgb(77, 77, 77);
-    border: 2px solid rgb(77, 77, 77);
+    color: rgb(110, 110, 110);
+    border-color: rgb(110, 110, 110);
+    border: 2px solid rgb(110, 110, 110);
 }
 .inputSearch::placeholder{
     padding: 10px; /* Задаем внутренний отступ для placeholder */
@@ -63,10 +63,10 @@ body, html {
     font-size: 120%;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(34, 34, 34);
-    border-color: rgb(216, 0, 0);
-    color: rgb(216, 0, 0);
+    border-color: red;
+    color: red;
     cursor: pointer;
-    border: 2px solid rgb(216, 0, 0);
+    border: 2px solid red;
 
 }
 .leng{
@@ -80,8 +80,8 @@ body, html {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-color: rgb(77, 77, 77);
-    color: rgb(77, 77, 77);;
+    border-color: rgb(110, 110, 110);
+    color: rgb(110, 110, 110);;
 }
 .selectAvto{
     color: white;
@@ -104,17 +104,17 @@ body, html {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-color: rgb(77, 77, 77);
-    color: rgb(77, 77, 77);;
+    border-color: rgb(110, 110, 110);
+    color: rgb(110, 110, 110);;
 }
 .searchCatalog{
     width: 200px;
     height: 30px;
     font-size: 102%;
     color: white;
-    background-color: rgb(216, 0, 0);
+    background-color: red;
     border-radius: 20px 20px 20px 20px;
-    border: 2px solid rgb(216, 0, 0);
+    border: 2px solid red;
     cursor: pointer;
 }
 .left{
@@ -132,7 +132,7 @@ body, html {
     color: white;
 }
 .red-text{
-    color: rgb(216, 0, 0); /* Задаем цвет первой строки */
+    color: red; /* Задаем цвет первой строки */
   }
   .banner_bottom{
     display: flex;
@@ -147,12 +147,16 @@ body, html {
     height: 40px;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(34, 34, 34);
-    border-color: rgb(216, 0, 0);
-    border: 2px solid rgb(216, 0, 0);
-    color: rgb(216, 0, 0);
+    border-color: red;
+    border: 2px solid red;
+    color: red;
     cursor: pointer;
   }
 .first_panel{
     display: flex;
     flex-direction: row;
+}
+.redText{
+    color: red;
+    position: absolute;
 }
