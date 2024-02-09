@@ -180,22 +180,31 @@ body, html {
 }
 .second_panel_text{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    justify-content: space-around;
+}
+.panel_disk{
+    display: flex;
     flex-direction: column;
 }
 .text1{
-    font-size: 400%;
+    font-size: 500%;
     color: white;
-    display: flex;
-    flex-direction: column;
 }
 .text2{
-    display: flex;
-    align-items: center;
-    font-size: 400%;
+    font-size: 500%;
     color: white;
     margin-top: -70px;
 }
 .redText1{
     color: rgb(245, 38, 38);
+}
+.disk{
+    
+}
+.pads{
+    position: absolute;
+    margin-top: 390px;
+    margin-left: -600px;
 }
