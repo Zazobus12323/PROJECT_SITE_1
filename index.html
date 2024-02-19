@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <header>
     <div class="head">
@@ -8,6 +10,7 @@
         <div class="logo"><div class="logorec"><img src="./src/icons/logo.png"></div></div>
        <!-- <img class="planetIcon" src="./src/icons/planet2.png">-->
         <div class="search"><input class="inputSearch" type="text" placeholder="Введите артикул товара..."></div>
+        <div class="humburger"><span></span></div>
         <div class="menuParam">
             <p class="param">Компания</p>
             <p class="param">Продукция</p>
@@ -67,7 +70,7 @@
     <div class="second_panel_text">
     <div class="panel_disk">
     <p class="text1">Диски и колодки<br><span class="redText1">Brannor</span> это<br>высокотехнологичный</p>
-    <p class="text2">и эффективный<br>продукт</p>
+    <p class="text2">и максимально<br>эффективный<br>продукт</p>
     </div>
     <div class="second_panel_right">
         <img src="./src/pictures/disk.png" class="disk">
@@ -77,6 +80,39 @@
 </div>
 <!--FRAME2--></div>
 <div class="frame3">
-    <p class="top">ДИСКИ</p>
+    <div class="frame3_part1">
+        <div class="f3_text">
+        <h class="title">Высокая термостойкость</h>
+        <p class="description">Высокоуглеродистый чугун обладает более высокой теплоемкостью и прочностью, что позволяет ему эффективнее справляться с нагревом и избегать температурной деформации.</p>
+        </div>
+        <div class="f3_text">
+            <h class="title">улучшенный теплообмен</h>
+            <p class="description">несквозная перфорация сложной формы обеспечивает увеличение коэффициента трения и создает аэродинамические потоки воздуха для лучшего охлаждения, не жертвуя при этом прочностью материала и снижением термальной массы.</p>
+        </div>
+    </div>
+    <div class="frame3_part2">
+        <div class="f3_text">
+            <h class="title">Стойкость к износу</h>
+            <p class="description">Все тормозные диски Brannor имеют обязательную износоустойчивую маркировку, на которой указан максимально допустимый износ, что позволяет упростить процесс оценки износа тормозного диска.</p>
+        </div>
+        <div class="f3_text">
+            <h class="title">Высочайшая защита от коррозии</h>
+            <p class="description">Цинконаполненное полимерное покрытие обеспечивает выдающиеся характеристики втечение всего срока использования и позволяет защитить нерабочие элементы тормозного диска от коррозии и воздействия агрессивной среды.</p>
+        </div>
+    </div>
 <!--FRAME3--></div>
+
+<div class="signIn" id="login">
+    <div class="signIn_content">
+      <!-- Форма входа -->
+      <form class="loginForm">
+        <label for="username">Имя пользователя:</label>
+        <input type="text" class="l_input" name="username" required>
+        <label for="password">Пароль:</label>
+        <input type="password" class="l_input" name="password" required>
+        <button type="submit" class="sign_in_button">Войти</button>
+      </form>
+    </div>
+  </div>
+  <div class="overlay"></div>
 </body>
