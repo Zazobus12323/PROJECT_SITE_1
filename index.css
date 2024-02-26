@@ -1,5 +1,4 @@
 body, html {
-
     margin: 0;
     padding: 0;
     border: 0;
@@ -63,26 +62,6 @@ body, html {
     .menuParam{
         display: none !important;
     }
-    .humburger span,
-    .humburger::before,
-    .humburger::after{
-        left: 0;
-        position: absolute;
-        height: 10%;
-        width: 100%;
-        transition: all 0.3s ease 0s;
-        background-color: white;
-    }
-    .humburger::before,
-    .humburger::after{
-        content: "";
-    }
-    .humburger::before{
-        top: 0;
-    }
-    .humburger::after{
-        bottom: 0;
-    }
     .signIn_content{
         position: relative;
         margin-top: 80px !important;
@@ -94,11 +73,10 @@ body, html {
     }
 }
 .head{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(24, 24, 24);
 }
 .menu{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-right: 2%;
@@ -125,7 +103,7 @@ body, html {
     border-radius: 20px 20px 20px 20px;
     width: 230px;
     height: 15px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(24, 24, 24);
     color: rgb(110, 110, 110);
     border-color: rgb(110, 110, 110);
     border: 2px solid rgb(110, 110, 110);
@@ -150,7 +128,7 @@ body, html {
     height: 40px;
     font-size: 120%;
     border-radius: 20px 20px 20px 20px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(24, 24, 24);
     border-color: rgb(245, 38, 38);
     color: rgb(245, 38, 38);
     cursor: pointer;
@@ -163,7 +141,7 @@ body, html {
 }
 .lengB{
     font-size: 130%;
-    background-color:rgb(34, 34, 34) ;
+    background-color:rgb(24, 24, 24) ;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;

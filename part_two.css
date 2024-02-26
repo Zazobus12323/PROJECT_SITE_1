@@ -1,0 +1,14 @@
+.product_site{
+ 
+}
+.product_pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.p_d{
+    width: 30%;
+    height: 30%;
+}
+
