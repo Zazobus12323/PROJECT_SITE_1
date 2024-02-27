@@ -1,14 +1,26 @@
 .product_site{
- 
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
 }
 .product_pictures{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    max-width: 30%;
+    max-height: 30%;
 }
 .p_d{
-    width: 30%;
-    height: 30%;
+    margin: 5px;
 }
-
+.green{
+    color: green;
+}
+.product_price{
+    display: flex;
+    flex-direction: row;
+}
+.product_name{
+    display: flex;
+    flex-direction: row;
+}
